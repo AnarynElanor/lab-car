@@ -20,6 +20,10 @@ main{
 	padding: 0% 10%;
 }
 
+#icon-color{
+	color: #030509;
+}
+
 
 #convert{
  background-color: white;
@@ -75,6 +79,13 @@ main{
 	margin-bottom: 0;
 }
 
+.start-mobile{
+	margin: 35% 0;
+	padding: 3%;
+	background-color: #F7B617;
+	color: #FFFFFF;
+	margin-bottom: 0;
+}
 .btn{
 	color: #000000;
 }
@@ -107,16 +118,17 @@ main{
 }
 
 #description-bord-mobile{
+	margin-top: 25%;
 	border-width: 1px 1px 1px 1px;
 	border-color: white;
 	border-style: solid;
-	padding: 1%;
+	padding: 5%;
 	
 }
 
 #iphone{
-	width: 70%;
-	height: 60%;
+	width: 80%;
+	height: 80%%;
 }
 
 .drive{
@@ -215,10 +227,20 @@ input::placeholder { /* Internet Explorer 10-11 */
    color: white;
 }
 
-.social-media-{
+.social-media{
 	color: #FFFFFF;
 }
 
+.social-media-icons{
+	
+	margin-top: 130%;
+	padding-right: 10%;
+	color: #FFFFFF;
+}
+
+i{
+	color: white;
+}
 .list-el {
     border-left: 0 none;
     border-right: 0 none;
@@ -228,7 +250,8 @@ input::placeholder { /* Internet Explorer 10-11 */
 }
 
 .appstores{
-	margin-top: 40%;
+	height: 100%;
+	margin-top: 60%;
 }
 
 .separate-footer{
@@ -238,4 +261,14 @@ input::placeholder { /* Internet Explorer 10-11 */
 	border-color: #FFFFFF;
 	margin-bottom: 2%;
 	margin-top: 0;
+}
+
+.logo-mobile{
+	width: 100%;
+}
+
+.app-media-logos{
+	margin-top: 10%;
+	padding-right: : 0;
+	margin-right: : 0;
 }
