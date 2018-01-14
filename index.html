@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name ="viewport" content="width=device-width, initial-scale= 1.0"> <!-- Configuración del view port -->
+		<title>Lab<car</title> <!-- Título -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+		<link rel="stylesheet" type="text/css" href="css/main.css"> <!-- Enlace del Css principal -->
+		<link rel="stylesheet" type="text/css" href="css/mobile.css"> <!-- Enlace del Css para la versión mobile -->
+		<link rel="stylesheet" href="assets/icon/font-awesome.css">
+	</head> 
+
+	<body> 
+
+		<header>
+			<nav class="navbar navbar-fixed-top">
+			  <div class="col-md-12 menu" >
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand offset-lg-3" href="#">
+				      	<img src="assets/images/logoForma.png">
+				      </a>
+				    </div>		    	    
+				      <ul class="nav navbar-nav navbar-right visible-sm visible-md visible-lg">
+					      	<li class="active"><a href="#">Conduce<span class="sr-only"></span></a></li>
+					        <li ><a href="#">Viaja</a></li>
+					        <li ><a href="#">Incia Sesión</a></li>    
+					  </ul>
+				    </div><!-- /.navbar-collapse -->
+				    </div>
+				    	<div class="nav navbar-nav navbar-right visible-xs">  	    
+				      		<i class="glyphicon glyphicon-align-justify"></i>
+				    	</div>	
+				    </div>
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<main>
+			<section>
+				<div class="jumbotron taxi">
+					<div class="container-fluid">
+						<div class="col-lg-4 pull-right start visible-sm visible-md visible-lg">
+							<h2> Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
+							<p>Viaja con <img src="assets/images/logoBlanco.png"></p>
+							<button class="btn" id="register"><strong>REGÍSTRATE</strong></button>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="col-md-3 separate" ></div>
+									<div class="col-md-4" id="obien"> o bien</div>
+									<div class="col-md-3 separate"></div>								
+								</div>			
+							</div>							
+							<button class="btn btn-sm" id="convert"><strong>Conviértete en conductor</strong></button>
+						</div>
+						<div class="col-lg-4 pull-right start visible-xs">
+							<h2> Comienza a viajar con </h2>
+							<p><img src="assets/images/logoBlanco.png"></p>												
+							<button class="btn btn-sm" id="convert"><strong>Descarga el app</strong></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="jumbotron description">
+					<div class="container-fluid container-description row">
+						<div class="col-md-8 pull-left offset-1 visible-md visible-sm visible-lg" id="description-bord">							
+							<div class="col-md-3 pull-left">
+								<img src="assets/images/iPhone6Plus.png">
+							</div>
+							<div class="col-md-3">
+							</div>
+							<div class="col-md-6 text-justify" id="description-text">
+								<h2>Descarga la nueva app</h2>
+								<br>
+								<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido. 
+									<br>
+									<br>
+									Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes, tu conductor sabe exactamente donde ir. 
+								</p>
+							</div>																		
+						</div>
+						<div class="col-md-10  visible-xs">							
+							<div class="col-xs-10 col-xs-offset-1" id="description-bord-mobile">
+								<h1 class="text-center" id="app-text"> La nueva app</h1>
+								<img class="col-xs-offset-2" id="iphone" src="assets/images/iPhone6Plus.png">
+							</div>							
+							<div class="col-md-12 text-center" id="description-text">
+								<h3 class="col-md-offset-4">Llega a tu destino aún más rápido</h3>
+							</div>																		
+						</div>
+					</div>				
+				</div>
+			</section>
+			<section>
+				<div class="jumbotron drive">
+					<div class="container-fluid drive-container">
+						<div class="col-lg-4 pull-right drive-content">
+							<h2> Conduce cuando quieras</h2>
+
+							<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+
+							<button class="btn" id="drive-btn">Conviértete en conductor</button>							
+						</div>
+					</div>					
+				</div>
+			</section>
+			<section>
+				<div class="jumbotron rate">
+					<div class="container rate-container row">
+						<div class="rate-content col-md-5 col-md-offset-1">
+							<div>
+								<h1>Tarifas</h1>
+								<p>Consulta las tarifas LabCar aquí.</p>
+							</div>
+							<div class="row ">
+								<img class="pull-left" src="assets/images/shape.png">
+							  <div class="col-xs-8">
+							    <input type="text" class="form-control" placeholder="Ingrese el punto de partida" style="background-color: #F7B617; color: white; border-color: white;">
+							  </div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 space"></div>
+							</div>
+							<div class="row">
+								<img class="pull-left" src="assets/images/shape2.png">
+							  <div class="col-xs-8">
+							    <input type="text" class="form-control" placeholder="Ingrese su destino" style="background-color: #F7B617; color: white; border-color: white;">
+							  </div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 space"></div>
+							</div>
+							<div class="col-md-6 col-md-offset-2">
+								<button class="btn btn-sm offset-4" id="rate-btn"><strong>¡TRAZAR RUTA!</strong></button>	
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="rate-map col-md-10">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15057.0684642101!2d-99.1179467!3d19.3575833!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1515807493858" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+						</div>		
+					</div>					
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="jumbotron footer">
+					<div class="container-fluid footer-container visible-sm visible-md visible-lg">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1"> 
+								<img src="assets/images/logoBlanco.png">
+							</div>
+							<div class="col-md-10 col-md-offset-1 separate-footer">
+								
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-3">
+									<div class="social-media-icons">
+										<a href="#"><i class="fa fa-fw fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-fw fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
+										<a href="#"><i class="fa fa-fw fa-apple"></i></a>
+										<a href="#"><i class="fa fa-fw fa-play"></i></a>
+									</div>															
+								</div>
+								<div class="col-md-3">
+									<ul class="list-unstyled">
+										<li class="list-el">Viaja</li>
+										<li class="list-el">Conduce</li>
+										<li class="list-el">Ciudades</li>
+										<li class="list-el">Plataforma</li>
+										<li class="list-el">Entregas</li>
+										<li class="list-el">¿Cómo funciona?</li>
+										<li class="list-el">Países</li>
+										<li class="list-el">Seguridad</li>
+									</ul>
+								</div>
+								<div class="col-md-3">
+									<ul class="list-unstyled">
+										<li class="list-el">Oportunidades</li>
+										<li class="list-el">Nuestra historia</li>
+										<li class="list-el">API de LabCar</li>
+										<li class="list-el">Eventos</li>
+										<li class="list-el">Desarrolladores</li>
+										<li class="list-el">Servicios</li>
+										<li class="list-el">Laboratoria</li>
+										<li class="list-el">Coders</li>
+									</ul>
+								</div>
+								<div class="col-md-3">
+									<div class="appstores">
+										<div class="">
+											<img src="assets/images/appstore.png">
+										</div>
+										<div class="row">
+											<div class="col-md-12 space"></div>
+										</div>
+										<div>
+											<img src="assets/images/enBadgeWebGeneric.png">
+										</div>										
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 separate-footer"></div>
+							<div class="col-md-10 col-md-offset-1"> 
+								<span>© 2018 LabCar technologies Inc.</span>
+							</div>							
+						</div>						
+					</div>
+					<div class="container-fluid footer-container visible-xs">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1"> 
+								<img src="assets/images/logoBlanco.png">
+							</div>
+							<div class="col-md-10 col-md-offset-1 separate-footer">								
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-5">
+									<ul class="list-unstyled pull-left">
+										<li class="list-el">Viaja</li>
+										<li class="list-el">Conduce</li>
+										<li class="list-el">Ciudades</li>
+										<li class="list-el">Plataforma</li>
+										<li class="list-el">Entregas</li>
+										<li class="list-el">¿Cómo funciona?</li>
+										<li class="list-el">Países</li>
+										<li class="list-el">Seguridad</li>
+									</ul>
+								</div>
+								<div class="col-md-4 pull-right">
+									<div class="social-media-icons">
+										<a href="#"><i class="fa fa-fw fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-fw fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-fw fa-linkedin"></i></a>
+										<a href="#"><i class="fa fa-fw fa-apple"></i></a>
+										<a href="#"><i class="fa fa-fw fa-play"></i></a>
+									</div>		
+									<div class="appstores-mobile">
+										<div class="">
+											<img src="assets/images/appstore.png">
+										</div>
+										<div class="space"></div>
+										<div class="">
+											<img src="assets/images/enBadgeWebGeneric.png">
+										</div>										
+									</div>																
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 separate-footer"></div>
+							<div class="col-md-10 col-md-offset-1"> 
+								<span>© 2018 LabCar technologies Inc.</span>
+							</div>							
+						</div>						
+					</div>			
+				</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+		<script type="text/javascript" src="app.js"></script> <!-- Para aduntar archivo js. -->
+	</body>
+</html>

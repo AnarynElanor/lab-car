@@ -1,0 +1,15 @@
+@media (max-width: 768px;){
+
+	#description-bord-mobile{
+		border-width: 1px 1px 1px 1px;
+		border-color: white;
+		border-style: solid;
+		padding: 2%;
+		margin: 2%;
+	}
+
+	.appstores-mobile{
+		margin-top: 20%;
+	}
+
+}

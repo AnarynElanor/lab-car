@@ -1,0 +1,241 @@
+html, body{
+	width: 100%; 
+	height: 100%;
+}
+
+main{
+	margin-top: 50px;
+}
+
+.navbar{
+	background-color: #FFFFFF;
+	color: #030509;
+
+}
+.nav.navbar-nav.navbar-right li a {
+    color: #030509;
+}
+
+.menu{
+	padding: 0% 10%;
+}
+
+
+#convert{
+ background-color: white;
+}
+
+#register{
+	background-color: white;
+}
+
+
+#obien{
+	text-align: center; 
+}
+
+.separate{
+	height: 20px;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #FFFFFF;
+	margin-bottom: 5%;
+	margin-top: 0;
+}
+.taxi{
+	max-width: 1920px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto; /*0 para quitar el margen por default, Auto para centrar cosas*/
+	background-image: url("../assets/images/taxi.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-bottom: 0;
+	
+}
+
+.container-fluid{
+	width: 100%;
+	height: 450px;
+
+}
+
+.container{
+	width: 100%;
+	height: 450px;
+
+}
+
+.start{
+	margin: 10% 0;
+	padding: 3%;
+	background-color: #F7B617;
+	color: #FFFFFF;
+	margin-bottom: 0;
+}
+
+.btn{
+	color: #000000;
+}
+
+.description{
+	background-color: #F7B617;
+	padding: 2%;
+	margin-bottom: 0;
+}
+
+.container-description{
+	padding-left: 0;
+}
+
+#description-bord{
+	border-width: 1px 1px 1px 0;
+	border-color: white;
+	border-style: solid;
+	padding: 2%;
+	margin: 0 2% 2% 2%;
+}
+
+#description-text{
+	color: #FFFFFF;
+}
+
+#app-text{
+	margin-top: 10px;
+	color: #FFFFFF;
+}
+
+#description-bord-mobile{
+	border-width: 1px 1px 1px 1px;
+	border-color: white;
+	border-style: solid;
+	padding: 1%;
+	
+}
+
+#iphone{
+	width: 70%;
+	height: 60%;
+}
+
+.drive{
+	max-width: 1920px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto; /*0 para quitar el margen por default, Auto para centrar cosas*/
+	background-image: url("../assets/images/conduce.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 0;
+}
+
+.drive-container{
+	margin: 0;
+
+}
+.drive-content{
+	padding: 10% 0 10% 3%;
+	background: rgba(1, 1, 3, .5);
+	color: #FFFFFF;
+	margin: 0 auto; 
+	height: 100%;
+
+}
+
+#drive-btn{
+
+	background-color: #F7B617; 
+	color: #FFFFFF;
+
+}
+
+.rate{
+	background-color: #F7B617;
+	padding: 2%;
+	margin-bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.rate-container{
+ align-items: center;
+ height: 100%;
+}
+
+.rate-content{
+	color: #FFFFFF;
+}
+
+.map-div{
+
+}
+.rate-map{
+	 
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	padding: 2%;
+	margin: 1% 2% 2% 2%;
+}
+
+#rate-btn{
+
+	background-color: #FFFFFF; 
+	color: #000000;
+}
+
+#map{
+	width:300px;
+	height:300px;
+	background: #FFFFFF;
+}
+
+.footer{
+	background-color: #2B2B2B; 
+	padding: 2%;
+	margin-bottom: 0;
+	width: 100%;
+	height: 100%;
+	color: #CDD0EE;
+}
+
+.space{
+
+	height: 15px;
+}
+
+
+.footer-container{
+	height: 100%;
+}
+
+input::placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
+.social-media-{
+	color: #FFFFFF;
+}
+
+.list-el {
+    border-left: 0 none;
+    border-right: 0 none;
+    border-bottom: 0 none;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.appstores{
+	margin-top: 40%;
+}
+
+.separate-footer{
+	height: 20px;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #FFFFFF;
+	margin-bottom: 2%;
+	margin-top: 0;
+}
