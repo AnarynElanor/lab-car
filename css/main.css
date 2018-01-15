@@ -16,6 +16,10 @@ main{
     color: #030509;
 }
 
+.icon-bar{
+	color: #030509;
+}
+
 .menu{
 	padding: 0% 10%;
 }
@@ -271,4 +275,8 @@ i{
 	margin-top: 10%;
 	padding-right: : 0;
 	margin-right: : 0;
+}
+
+.input::placeholder {
+  color: #FFFFFF;
 }
