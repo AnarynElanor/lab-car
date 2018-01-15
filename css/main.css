@@ -12,6 +12,11 @@ main{
 	color: #030509;
 
 }
+
+.navbar-header{
+	color: #030509;
+}
+
 .nav.navbar-nav.navbar-right li a {
     color: #030509;
 }
